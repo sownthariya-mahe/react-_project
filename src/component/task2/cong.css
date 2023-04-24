@@ -1,0 +1,59 @@
+.bg{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+}
+.bg-c{
+    background-color:skyblue;
+}
+.bgs{
+    background-color:darkblue;
+}
+.fss{
+    font-size:75px;
+}
+.bgso{
+    background-image:url("../task4/socialimg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    
+}
+.bgl{
+    background-image: linear-gradient(red,pink,purple);
+}
+.bgb{
+    background-color:green !important;
+}
+.tc{
+    color:darkgreen;
+}
+.out{
+    border: none !important;
+    outline:none !important;
+    outline-color: white;
+}
+.br{
+    border-top: 3px solid red !important;
+   
+}
+.bb{
+    border-top: 3px solid steelblue !important;
+}
+.bgt{
+    background-color: skyblue;
+}
+.imgi{
+    width:10rem;
+    height:10rem;
+}
+.ind{
+    width: 50% !important;;
+     height:100% !important;
+}
+.bgr{
+    background-image:linear-gradient(pink,white);
+    min-width: 100%;
+    min-height: 100vh;
+}
+.hr{
+    height:25rem !important;
+}
