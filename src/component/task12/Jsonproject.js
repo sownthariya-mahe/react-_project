@@ -14,7 +14,7 @@ export function Jsonproject() {
     })
     return (
         <>
-            <h1>Dress Collections</h1>
+            <h1>Dress Collections show</h1>
             {
                 dress.map((value, index) => (
                     <>
