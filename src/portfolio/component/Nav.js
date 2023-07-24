@@ -12,6 +12,7 @@
     <div className=" collapse navbar-collapse " id="navbarNav">
         <div className="text-white">
       <ul class="navbar-nav  ">
+      
         <li className="nav-item">
           <Link to = '/'className="nav-link text-white " aria-current="page" >Home</Link>
         </li>
@@ -30,6 +31,7 @@
         <li class="nav-item">
           <Link to ='/certificate' className="nav-link text-white" > Certificate </Link>
         </li>
+      
       </ul>
         </div>
     </div>

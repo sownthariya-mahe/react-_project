@@ -15,7 +15,7 @@ import { Technology } from './component/task7/Technology';
 import { Hooks } from './component/task8/Hooks';
 import { Fruitcount } from './component/task9/Fruitcount';
 import { Responcep1 } from './component/task10/Responcep1';
-import {Responce2, Responcep2} from './component/task10/Responcep2';
+import { Responcep2} from './component/task10/Responcep2';
 import { Datef } from './component/task11/Datef';
 import { Boots } from './component/bootstraptask/Boots';
 import { Jsonproject } from './component/task12/Jsonproject';
@@ -25,6 +25,9 @@ import { Table } from './component/task14/table';
 import { Form } from './component/task14/form';
 import { Update } from './component/task14/update';
 import AnimatedCursor from 'react-animated-cursor';
+import DateNavBar from './component/datenav/DateNavBar';
+import DateNavBar2 from './component/dateNavBar/DateNavBar2';
+import Calender from './component/dateNavBar/Calender';
 
 
 
@@ -33,9 +36,11 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-    
+    <Route path='/datenav2' element={[<Menu/>,<DateNavBar2/>]}/>
+
       <Route path='/' element={[<Menu/>,<Hello/>,<AnimatedCursor/>]}/>
       <Route path='/boots'element={[<Menu/>,<Boots/>,<AnimatedCursor/>]}/>
+      <Route path='/calendar'element={[<Menu/>,<Calender/>,<AnimatedCursor/>]}/>
 
       <Route path='/congrats'element={[<Menu/>,<Congrats/>,<AnimatedCursor/>]}/>
       <Route path='/super'element={[<Menu/>,<Super/>,<AnimatedCursor/>]}/>
@@ -54,6 +59,7 @@ function App() {
       <Route path='/table'element={[<Menu/>,<Table/>,<AnimatedCursor/>]}/>
       <Route path='/form'element={[<Menu/>,<Form/>,<AnimatedCursor/>]}/>
       <Route path='/update/:sno'element={[<Menu/>,<Update/>,<AnimatedCursor/>]}/>
+      <Route path='/datenav2'element={[<Menu/>,<DateNavBar/>]}/>
     
 
       

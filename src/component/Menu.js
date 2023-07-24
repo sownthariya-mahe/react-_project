@@ -11,6 +11,16 @@ export function Menu(){
         </button>
         <div className="collapse navbar-collapse text-white" id="navbarNav">
         <ul className="navbar-nav">
+        <li class="nav-item">
+          <Link to ='/datenav' className="nav-link text-dark" > datenav </Link>
+        </li>
+        <li class="nav-item">
+          <Link to ='/calendar' className="nav-link text-dark" > calendar</Link>
+        </li>
+        <li class="nav-item">
+          <Link to ='/datenav2' className="nav-link text-dark" > datenav2 </Link>
+        </li>
+        
         
         <li className="nav-item">
           <Link to  ='/'  className="nav-link active" aria-current="page" >Hello</Link>
